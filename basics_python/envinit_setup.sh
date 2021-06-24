@@ -1,14 +1,18 @@
-# create a new environment and install necessary packages
-# (run these commands in the terminal)
+## Run these commands in the terminal one by one.
+
+# create a new environment
 conda create -n "socmedia" python=3.7
-conda install pip numpy pandas notebook scipy matplotlib requests
 
 # activate the newly created environment
 conda activate socmedia
 
-# launch python notebook
+# install the necessary packages
+conda install pip numpy pandas notebook scipy matplotlib requests
+
+# launch python notebook from the new environment
 jupyter notebook
 
-# NOTE: for Miniconda installations, if wanting to use Anaconda navigator
+
+## NOTE: for Miniconda installations only, if wanting to use the Anaconda navigator
 conda install anaconda-navigator nb-conda-kernels
 
